@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!--<script src="https://kit.fontawesome.com/386f8bca17.js" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+
+    <!--/////////////////////////Navigation Bar//////////////////////-->
+    <nav>
+        <!--Facebook Logo-->
+            <div class="header-left">
+                <img src="https://clipart.info/images/ccovers/1499793250facebook-logo-png-clipart.png" alt="Facebook Logo" class="logo">
+            </div>
+
+            <!--Search Bar-->
+            <div class="header-middle">
+                <div class="search-bar">
+                    <i class="fa fa-search rounded-pill" style="font-size: 30px; color: #ffff;"></i>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="width: 100px;">Search</button>
+                </div>
+            </div>
+
+            <!--Profile and settings dropdown-->
+            <div class="header-right">
+
+                    <select class="settings-menu" style="width: 400px; height: 50px;">
+                        <option value="0"><a>Settings</a></option> 
+                        <option value="1">Your account</option>
+                        <option value="2">Security and account access</option>
+                        <option value="3">Privacy and safety</option>
+                        <option value="4">Notifications</option>
+                    </select>
+                    
+                    <img src="https://c.stocksy.com/a/XJC000/z9/47339.jpg" alt="Profile picture" style="width: 100px; height:100px;"/>
+                   
+                    
+                 
+            </div>
+        
+    </nav>
+
+    <!--//////////////Content Section//////////////////-->
+
+    <div class="content-fluid ">
+
+        <div class="row ">
+            <!--Left profile card-->
+            <div class="left-sidebar col-md-3" >
+                
+
+                    <div class="card mx-auto" style="width: 50%;">
+                        <img class="card-img-top" src="https://c.stocksy.com/a/XJC000/z9/47339.jpg" alt="Profile picture">
+                        <div class="card-body">
+                          <h5 class="card-title display-3">Man Mannerston</h5>
+                          <p class="card-text display-6">2 Friends in real life</p>
+                          <a href="#" class="btn btn-primary" required style="width: 100%; height:80px;"><h1 class="display-6 px-5">Profile</h1></a>
+                        </div>
+                    </div>
+
+                
+                
+            </div>
+
+            <div class="main-content-area col-md-6 ">
+                <!--Post create-->
+                <div class="input-field" >
+                    <fieldset>
+                        <input id="post-creation" name="post" type="text" placeholder="Whats happening?" required style="width: 200%; height:150px;" class="rounded-pill"/>
+                    </fieldset>
+                    <button type="submit" class="btn btn-primary btn-block rounded-pill" required style="width: 20%; height:80px;"><h1 class="display-6 px-5 ">Post</h1></button>
+                    <label for="exampleFormControlFile1">Media</label>
+                    <input type="file" class="form-control-file rounded-pill" id="exampleFormControlFile1"/>
+                     
+                </div>
+                <!--Post Feed-->
+                <div>
+                    <h1 class="display-1 py-5">Feed</h1>
+                </div>
+                
+                <div class="card rounded" style="width: 100%">
+                    <img class="card-img-top rounded" src="https://th.bing.com/th/id/OIP.N_55IGnxHY8LFkazIo2IEgHaE8?rs=1&pid=ImgDetMain" alt="sad man drinking" style="width: 50%; height:650px;"/>
+                    <div class="card-body">
+                        <img src="https://th.bing.com/th/id/OIP.dpSrwn_FcQ7dI35O6V2NgwHaLG?rs=1&pid=ImgDetMain" alt="Profile photo" style="width: 100px; max-height: 100px;" class="rounded-circle " /><h5 class="card-title display-3 py-5 ">Pedro Hildfuns</h5>
+                      <p class="card-text display-6 py-3 ">Its Friday bro. Should we get litty tonight?</p>
+                      <a href="#" class="btn btn-primary rounded-pill" style="width: 15%; height:80px;">
+                        <i class="fa-solid fa-heart" style="font-size: 30px;"></i>
+                        <h1 class="display-6 ">Like</h1>
+                      </a>
+                      <a href="#" class="btn btn-info rounded-pill" style="width: 15%; height:80px;">
+                        <i class="fa-solid fa-arrow-up-from-bracket" style="font-size: 30px;"></i>
+                        <h1 class="display-6 ">Share</h1>
+                      </a>
+                      <a href="#" class="btn btn-default rounded-pill border" style="width: 15%; height:80px;">
+                        <i class="fa-regular fa-comment" style="font-size: 30px;"></i>
+                        <h1 class="display-6 ">Comment</h1>
+                      </a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="friend-group col-md-3 py-5" >
+                <label for="friend-group" class="display-1">Friends Online</label>
+
+                  <div class="list-group" style="width: 100%; height:250px;">
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item  py-5 px-4 ">
+                                <img src="https://th.bing.com/th/id/R.950d6ce3d3067fb0ef170f172235c037?rik=olG97dgvx1flzA&pid=ImgRaw&r=0" alt="Profile photo" style="width: 150px; max-height: 150px;" class="rounded-circle " />
+                                <h1 class="display-5 px-5">Seok-Jin Amado</h1>
+                            </li>
+                            <li class="list-group-item  py-5 px-4">
+                                <img src="https://th.bing.com/th/id/OIP.dpSrwn_FcQ7dI35O6V2NgwHaLG?rs=1&pid=ImgDetMain" alt="Profile photo" style="width: 150px; max-height: 150px" class="rounded-circle" />
+                                <h1 class="display-5 px-5">Pedro Hildfuns</h1>
+                                <i class="bi bi-circle-fill text-success"></i>
+                            </li>
+                            <li class="list-group-item  py-5 px-4">
+                                <img src="https://th.bing.com/th/id/OIP.GkruzGhEDSch-csDrTUKAQAAAA?rs=1&pid=ImgDetMain" alt="Profile photo" style="width: 150px; max-height: 150px" class="rounded-circle" />
+                                <h1 class="display-5 px-5">Leena Daniel</h1>
+                            </li>
+                            <li class="list-group-item  py-5 px-4">
+                                <img src="https://th.bing.com/th/id/R.8c5151e2e72db117e6793e52a754f691?rik=jrDhVSV030nOMA&pid=ImgRaw&r=0" alt="Profile photo" style="width: 150px; max-height: 150px" class="rounded-circle" />
+                                <h1 class="display-5 px-5">Bilal Maija</h1>
+                            </li>
+                            <li class="list-group-item  py-5 px-4">
+                                <img src="https://th.bing.com/th/id/OIP.1-DB2RNg8vz2BNX89HpzYgHaLH?rs=1&pid=ImgDetMain" alt="Profile photo" style="width: 150px; max-height: 150px" class="rounded-circle" />
+                                <h1 class="display-5 px-5">Eryn Timon</h1>
+                            </li>
+                        </ul>
+                    
+                    </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <!--Side Menu-->
+            <div class="side-menu col-xl-3">
+                <div class="list-group" style="width: 100%; height:550px;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-center py-5"><h1 class="display-5"><a href="#">News Feed</a></h1></li>
+                        <li class="list-group-item text-center py-5"><h1 class="display-5"><a href="#">Friends</a></h1></li>
+                        <li class="list-group-item text-center py-5"><h1 class="display-5"><a href="#">Pages</a></h1></li>
+                        <li class="list-group-item text-center py-5"><h1 class="display-5"><a href="#">Explore</a></h1></li>
+                        <li class="list-group-item text-center py-5"><h1 class="display-5"><a href="#">Marketplace</a></h1></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Post Feed-->
+            <div class="main-content-area col-md-6">
+                <div class="card rounded" style="width: 100%">
+                    <img class="card-img-top rounded" src="https://pm1.narvii.com/6406/316bb258d4df83b693ea4feabeb8407ba1c77a16_hq.jpg" alt="depressed asian dude" style="width: 50%; height:650px;"/>
+                    <div class="card-body">
+                        <img src="https://th.bing.com/th/id/OIP.GkruzGhEDSch-csDrTUKAQAAAA?rs=1&pid=ImgDetMain" alt="Profile photo" style="width: 100px; max-height: 100px;" class="rounded-circle " /><h5 class="card-title display-3 py-5 ">Leena Daniel</h5>
+                      <p class="card-text display-6 py-3 ">Theres nothing left to say</p>
+                      <a href="#" class="btn btn-primary rounded-pill" style="width: 15%; height:80px;">
+                        <i class="fa-solid fa-heart" style="font-size: 30px;"></i>
+                        <h1 class="display-6 ">Like</h1>
+                      </a>
+                      <a href="#" class="btn btn-info rounded-pill" style="width: 15%; height:80px;">
+                        <i class="fa-solid fa-arrow-up-from-bracket" style="font-size: 30px;"></i>
+                        <h1 class="display-6 ">Share</h1>
+                      </a>
+                      <a href="#" class="btn btn-default rounded-pill border" style="width: 15%; height:80px;">
+                        <i class="fa-regular fa-comment" style="font-size: 30px;"></i>
+                        <h1 class="display-6 ">Comment</h1>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Birthday Tab-->
+            <div class="birthdays col-xl-3">
+                <label for="birthdays" class="display-1">Birthday Notifications</label>
+                <div class="list-group" style="width: 100%; height:550px;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item  py-5"><i class="fa-solid fa-cake-candles" style="font-size:  50px;"></i><h1 class="display-4 px-5"><a href="#">Bilal Maija</a></h1></li>
+                        <li class="list-group-item  py-5"><i class="fa-solid fa-cake-candles" style="font-size:  50px;"></i><h1 class="display-4 px-5"><a href="#">Eryn Timon</a></h1></li>
+                        <li class="list-group-item  py-5"><i class="fa-solid fa-cake-candles" style="font-size:  50px;"></i><h1 class="display-4 px-5"><a href="#">Seok-Jin Amado</a></h1></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+       
+    </div>
+
+    <!--////////////Footer///////////////////////////-->
+    <div class="row">
+        <div class="footer" style="background-color:  #3b5998; height: 250px;">
+            <div class="t-and-c text-center col-xl-3">
+                <p style="font-size: 50px;">
+                    <a href="#" style="color: #ffff;">Terms and Conditions</a>
+                </p>
+            </div>
+            
+            <div class="privacy-pol text-center col-xl-3">
+                <p style="font-size: 50px;">
+                    <a href="#" style="color: #ffff;">Privacy Policy</a>
+                </p>
+            </div>
+            
+            <div class="company text-center col-xl-3">
+                <p style="font-size: 50px;">
+                    <a href="#" style="color: #ffff;">Meta2024</a>
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

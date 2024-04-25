@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+
+}
+
+body{
+    background: #efefef;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3b5998;
+}
+
+.logo{
+    width: 260px;
+    margin-right: 45px;
+    margin-left: 100px;
+}
+
+.header-middle input {
+    width: 700px;
+    height: 50px;
+    align-items: center;
+    
+}
+
+.search-bar input, i{
+    display: flex;
+    width: 300;
+    display: inline;
+    size: 500px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.header-right .settings-menu img {
+    display: flex;
+    
+    margin-right: 100px;
+}
+
+.header-right  img {
+    display: flex;
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 100px;
+    display: inline-block;
+    
+}
+
+.online{
+    position: relative;
+}
+
+.online::after{
+    content: '';
+    width: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+}
+
+.profilePic{
+    
+    background: gray;
+    border-radius: 10%;
+}
+
+.main-content-area{
+    background-color: azure;
+}
+.input-field{
+    justify-content: first baseline;
+    width: 1000px;
+    vertical-align: center;
+    padding: 10px;
+}
+.input-field input::placeholder{
+    font: 50px sans-serif;
+}
+
+.input-field, input{
+    display: inline-block;
+}
+
+.list-group, h1, img, i{
+    display: inline-block;
+
+}
+
+.card, img, h5{
+    display: inline-block;
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3b5998;
+}
